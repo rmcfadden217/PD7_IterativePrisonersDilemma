@@ -8,6 +8,7 @@
 
 team_name = 'ksaurs23' # Only 10 chars displayed.
 strategy_name = 'winner, winner, chicken dinner'
+strategy_description = 'start with b. if my score is under 0 return b. if my score is over 0 return c'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
